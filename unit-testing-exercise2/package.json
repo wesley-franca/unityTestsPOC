@@ -1,13 +1,12 @@
 {
-  "name": "they_are_here",
+  "name": "unit-testing-exercise2",
   "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server.ts",
-    "test": "npx jest -i",
-    "coverage": "npm run test -- --coverage"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "keywords": [],
   "author": "",
